@@ -1,4 +1,4 @@
-package com.bernardocouto.cortex.domain;
+package com.bernardocouto.cortex.service.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
