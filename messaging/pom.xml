@@ -13,4 +13,12 @@
 
     <artifactId>messaging</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.bernardocouto</groupId>
+            <artifactId>core</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
+
 </project>

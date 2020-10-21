@@ -1,0 +1,6 @@
+com/bernardocouto/cortex/controller/response/CotacaoResponse.class
+com/bernardocouto/cortex/controller/request/CotacaoRequest.class
+com/bernardocouto/cortex/controller/mapper/CotacaoMapper.class
+com/bernardocouto/cortex/controller/resource/CotacaoResource.class
+com/bernardocouto/cortex/controller/mapper/CotacaoMapperImpl.class
+com/bernardocouto/cortex/controller/service/CotacaoService.class

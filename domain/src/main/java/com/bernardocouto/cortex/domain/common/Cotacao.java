@@ -6,13 +6,12 @@ import lombok.Setter;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 @Getter
 @Setter
 public class Cotacao implements DomainObject {
 
-    private UUID id;
+    private String id;
 
     private LocalDate dataCotacao;
 

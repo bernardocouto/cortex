@@ -16,7 +16,17 @@
     <dependencies>
         <dependency>
             <groupId>com.bernardocouto</groupId>
+            <artifactId>controller</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bernardocouto</groupId>
             <artifactId>core</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bernardocouto</groupId>
+            <artifactId>messaging</artifactId>
             <version>0.0.1</version>
         </dependency>
         <dependency>
@@ -29,10 +39,42 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <id>copy-spring-boot-application-file</id>
+                        <phase>install</phase>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <configuration>
+                            <mainClass>com.bernardocouto.cortex.application.Application</mainClass>
+                        </configuration>
+                        <goals>
+                            <goal>build-info</goal>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>application-local.properties</include>
+                </includes>
+            </resource>
+        </resources>
     </build>
 
 </project>

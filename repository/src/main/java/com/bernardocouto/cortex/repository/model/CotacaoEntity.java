@@ -9,7 +9,6 @@ import lombok.Setter;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 @DynamoDBTable(tableName = "cortex")
 @Getter
@@ -17,7 +16,7 @@ import java.util.UUID;
 public class CotacaoEntity {
 
     @DynamoDBHashKey(attributeName = "id")
-    private UUID id;
+    private String id;
 
     @DynamoDBAttribute(attributeName = "data_cotacao")
     private LocalDate dataCotacao;

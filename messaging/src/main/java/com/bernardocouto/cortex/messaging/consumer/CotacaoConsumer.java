@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CotacaoConsumer {
 
-    // @SqsListener(deletionPolicy = SqsMessageDeletionPolicy.ON_SUCCESS, value = "${aws.sqs.queue.name}")
+     @SqsListener(deletionPolicy = SqsMessageDeletionPolicy.ON_SUCCESS, value = "${aws.sqs.queue.name}")
     public void receiveMessage(@Payload final String message) { }
 
 }

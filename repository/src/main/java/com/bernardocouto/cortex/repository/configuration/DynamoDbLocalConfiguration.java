@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 @Profile("local")
 public class DynamoDbLocalConfiguration {
 
+    @Bean
     public static AmazonDynamoDB amazonDynamoDB() {
         final AwsClientBuilder.EndpointConfiguration endpointConfiguration = new AwsClientBuilder.EndpointConfiguration("http://localhost:8000", "sa-east-1");
         return AmazonDynamoDBClientBuilder
