@@ -1,0 +1,8 @@
+com/bernardocouto/cortex/repository/converter/LocalDateTimeConverter.class
+com/bernardocouto/cortex/repository/model/CotacaoEntity.class
+com/bernardocouto/cortex/repository/adapter/CotacaoAdapter.class
+com/bernardocouto/cortex/repository/configuration/DynamoDbLocalConfiguration.class
+com/bernardocouto/cortex/repository/mapper/CotacaoMapper.class
+com/bernardocouto/cortex/repository/mapper/CotacaoMapperImpl.class
+com/bernardocouto/cortex/repository/converter/LocalDateConverter.class
+com/bernardocouto/cortex/repository/configuration/DynamoDbConfiguration.class

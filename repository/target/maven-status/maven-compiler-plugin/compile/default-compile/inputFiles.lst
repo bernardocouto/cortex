@@ -1,0 +1,7 @@
+/home/bernardocouto/Documents/Development/Cortex/cortex/repository/src/main/java/com/bernardocouto/cortex/repository/converter/LocalDateConverter.java
+/home/bernardocouto/Documents/Development/Cortex/cortex/repository/src/main/java/com/bernardocouto/cortex/repository/mapper/CotacaoMapper.java
+/home/bernardocouto/Documents/Development/Cortex/cortex/repository/src/main/java/com/bernardocouto/cortex/repository/configuration/DynamoDbLocalConfiguration.java
+/home/bernardocouto/Documents/Development/Cortex/cortex/repository/src/main/java/com/bernardocouto/cortex/repository/model/CotacaoEntity.java
+/home/bernardocouto/Documents/Development/Cortex/cortex/repository/src/main/java/com/bernardocouto/cortex/repository/converter/LocalDateTimeConverter.java
+/home/bernardocouto/Documents/Development/Cortex/cortex/repository/src/main/java/com/bernardocouto/cortex/repository/configuration/DynamoDbConfiguration.java
+/home/bernardocouto/Documents/Development/Cortex/cortex/repository/src/main/java/com/bernardocouto/cortex/repository/adapter/CotacaoAdapter.java

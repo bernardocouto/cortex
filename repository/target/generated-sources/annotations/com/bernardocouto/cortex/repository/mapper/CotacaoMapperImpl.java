@@ -6,7 +6,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-10-20T00:10:25-0300",
+    date = "2020-10-20T17:08:38-0300",
     comments = "version: 1.3.1.Final, compiler: javac, environment: Java 15 (Oracle Corporation)"
 )
 public class CotacaoMapperImpl extends CotacaoMapper {
